@@ -20,13 +20,11 @@ sudo apt-get install wget
 bash run.sh
 ```
 ## Set Wallpapers:
-# Light:
-[Download Light Wallpaper](https://i.imgur.com/ZeDNy7c.jpg)
-# Dark:
-[Download Dark Wallpaper](https://i.imgur.com/6xae3Pn.jpg)
 
-![light Theme](https://i.imgur.com/ZeDNy7c.jpg)
-![Dark Theme](https://i.imgur.com/6xae3Pn.jpg)
+| Theme      | Link           | Wiew |
+| ------------- |:-------------:| -----:|
+| Light | [Download](https://i.imgur.com/ZeDNy7c.jpg)| ![light Theme](https://i.imgur.com/ZeDNy7c.jpg) |
+| Dark  |[Download](https://i.imgur.com/6xae3Pn.jpg)      |![Dark Theme](https://i.imgur.com/6xae3Pn.jpg)|
 
 ## Extensions:
 
