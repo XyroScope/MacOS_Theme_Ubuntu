@@ -19,7 +19,17 @@ sudo apt-get install wget
 ```bash
 bash run.sh
 ```
+## Set Wallpapers:
+# Light:
+[Download Light Wallpaper](https://i.imgur.com/ZeDNy7c.jpg)
+# Dark:
+[Download Dark Wallpaper](https://i.imgur.com/6xae3Pn.jpg)
+
+![light Theme](https://i.imgur.com/ZeDNy7c.jpg)
+![Dark Theme](https://i.imgur.com/6xae3Pn.jpg)
+
 ## Extensions:
+
 You Need to install Extensions from [Gnome Store](https://extensions.gnome.org/).
 You can install recommended Extensions from this link below.
 
