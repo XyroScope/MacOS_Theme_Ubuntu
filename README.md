@@ -9,7 +9,7 @@ Learn more : [Watch This](https://YouTube.com/HDSULTAN) to Know about How to ins
 ```bash
 wget -O run.sh https://bit.ly/3fWeIV1
 ```
-Showing: Command 'curl' not found? then Type this command below!
+Showing: Command 'wget' not found? then Type this command below!
 
 ```bash
 sudo apt-get install wget
@@ -35,9 +35,7 @@ You can install recommended Extensions from this link below.
 
 2...[Arc Menu](https://extensions.gnome.org/extension/1228/arc-menu/)
 
-3...[Dash To Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
-
-4...[Dash To Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
+3...[Dash To Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
 
 
 ## Screenshots
