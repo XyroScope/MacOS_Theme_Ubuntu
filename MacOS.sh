@@ -89,7 +89,7 @@ read -n 1 -s -r -p "........................................................"
 sudo apt-get install plank -y
 wget https://github.com/XyroScope/MacOS_Theme_Ubuntu/blob/master/plank.zip?raw=true -O plank.zip
 unzip 'plank.zip'
-mv themes ~/.local/share/plank/
+mv themes ~/.local/share/plank/themes
 
 plank --version
 plank --preferences
