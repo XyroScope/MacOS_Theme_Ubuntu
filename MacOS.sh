@@ -66,22 +66,14 @@ echo -e "\e[3$(( $RANDOM * 6 / 32767 + 1 ))mNow! I'm opening a browser. Hit any 
 read -n 1 -s -r -p "........................................................"
 URL="https://bit.ly/2X3Nm6P"; xdg-open $URL || sensible-browser $URL || x-www-browser $URL || gnome-open $URL
 sudo apt update -y
-echo -e "\e[3$(( $RANDOM * 6 / 32767 + 1 ))m........................................................"
-echo "  ╔╦╗┌─┐┌┐┌┬ ┬┌─┐┬    ┬┌┐┌┌─┐┌┬┐┌─┐┬  ┬  ┌─┐┌┬┐┬┌─┐┌┐┌";
-echo "  ║║║├─┤││││ │├─┤│    ││││└─┐ │ ├─┤│  │  ├─┤ │ ││ ││││    Part:2 ";
-echo "  ╩ ╩┴ ┴┘└┘└─┘┴ ┴┴─┘  ┴┘└┘└─┘ ┴ ┴ ┴┴─┘┴─┘┴ ┴ ┴ ┴└─┘┘└┘";
-echo -e "\e[3$(( $RANDOM * 6 / 32767 + 1 ))mNow! I'm opening your "Gnome Tweak Tool" interface . Hit any key to continue....."
-read -n 1 -s -r -p "........................................................"
-gnome-tweaks
-gsettings set org.gnome.shell.extensions.dash-to-dock show-show-apps-button false
-echo -e "\e[3$(( $RANDOM * 6 / 32767 + 1 ))mEverything Finished ???. Hit any key to continue....."
-read -n 1 -s -r -p "Press any key to continue...."
+
+
 
 
 
 echo -e "\e[3$(( $RANDOM * 6 / 32767 + 1 ))m........................................................"
 echo "  ╔╦╗┌─┐┌┐┌┬ ┬┌─┐┬    ┬┌┐┌┌─┐┌┬┐┌─┐┬  ┬  ┌─┐┌┬┐┬┌─┐┌┐┌";
-echo "  ║║║├─┤││││ │├─┤│    ││││└─┐ │ ├─┤│  │  ├─┤ │ ││ ││││    Part: 3";
+echo "  ║║║├─┤││││ │├─┤│    ││││└─┐ │ ├─┤│  │  ├─┤ │ ││ ││││    Part: 2";
 echo "  ╩ ╩┴ ┴┘└┘└─┘┴ ┴┴─┘  ┴┘└┘└─┘ ┴ ┴ ┴┴─┘┴─┘┴ ┴ ┴ ┴└─┘┘└┘";
 echo -e "\e[3$(( $RANDOM * 6 / 32767 + 1 ))mNow! I'm installing plank & opening your "Plank Dock" interface for For MacOS Dock . Hit any key to continue....."
 read -n 1 -s -r -p "........................................................"
@@ -96,6 +88,22 @@ plank --preferences
 
 echo -e "\e[3$(( $RANDOM * 6 / 32767 + 1 ))mEverything Finished ???. Hit any key to continue....."
 read -n 1 -s -r -p "Press any key to continue...."
+
+
+
+
+
+echo -e "\e[3$(( $RANDOM * 6 / 32767 + 1 ))m........................................................"
+echo "  ╔╦╗┌─┐┌┐┌┬ ┬┌─┐┬    ┬┌┐┌┌─┐┌┬┐┌─┐┬  ┬  ┌─┐┌┬┐┬┌─┐┌┐┌";
+echo "  ║║║├─┤││││ │├─┤│    ││││└─┐ │ ├─┤│  │  ├─┤ │ ││ ││││    Part:3 ";
+echo "  ╩ ╩┴ ┴┘└┘└─┘┴ ┴┴─┘  ┴┘└┘└─┘ ┴ ┴ ┴┴─┘┴─┘┴ ┴ ┴ ┴└─┘┘└┘";
+echo -e "\e[3$(( $RANDOM * 6 / 32767 + 1 ))mNow! I'm opening your "Gnome Tweak Tool" interface . Hit any key to continue....."
+read -n 1 -s -r -p "........................................................"
+gnome-tweaks
+gsettings set org.gnome.shell.extensions.dash-to-dock show-show-apps-button false
+echo -e "\e[3$(( $RANDOM * 6 / 32767 + 1 ))mEverything Finished ???. Hit any key to continue....."
+read -n 1 -s -r -p "Press any key to continue...."
+
 
 
 
