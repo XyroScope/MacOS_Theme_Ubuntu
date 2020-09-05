@@ -81,6 +81,7 @@ read -n 1 -s -r -p "........................................................"
 sudo apt-get install plank -y
 wget https://github.com/XyroScope/MacOS_Theme_Ubuntu/blob/master/plank.zip?raw=true -O plank.zip
 unzip 'plank.zip'
+mkdir -p ~/.local/share/plank/
 sudo mv themes ~/.local/share/plank/themes
 plank --version
 plank --preferences
@@ -98,10 +99,9 @@ echo "  ║║║├─┤││││ │├─┤│    ││││└─┐ 
 echo "  ╩ ╩┴ ┴┘└┘└─┘┴ ┴┴─┘  ┴┘└┘└─┘ ┴ ┴ ┴┴─┘┴─┘┴ ┴ ┴ ┴└─┘┘└┘";
 echo -e "\e[3$(( $RANDOM * 6 / 32767 + 1 ))mNow! I'm opening your "Gnome Tweak Tool" interface . Hit any key to continue....."
 read -n 1 -s -r -p "........................................................"
-cd ~/Pictures
-wget https://i.imgur.com/ZeDNy7c.jpg -O Light.JPG
-wget https://i.imgur.com/6xae3Pn.jpg -O Dark.JPG
-cd ~/
+mv *MacOS.JPG ~/Pictures
+wget https://i.imgur.com/ZeDNy7c.jpg -O Light-MacOS.JPG
+wget https://i.imgur.com/6xae3Pn.jpg -O Dark-MacOS.JPG
 gnome-tweaks
 gsettings set org.gnome.shell.extensions.dash-to-dock show-show-apps-button false
 echo -e "\e[3$(( $RANDOM * 6 / 32767 + 1 ))mEverything Finished ???. Hit any key to continue....."
