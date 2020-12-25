@@ -64,7 +64,7 @@ echo "  ║║║├─┤││││ │├─┤│    ││││└─┐ 
 echo "  ╩ ╩┴ ┴┘└┘└─┘┴ ┴┴─┘  ┴┘└┘└─┘ ┴ ┴ ┴┴─┘┴─┘┴ ┴ ┴ ┴└─┘┘└┘";
 echo -e "\e[3$(( $RANDOM * 6 / 32767 + 1 ))mNow! I'm opening a browser. Hit any key to continue....."
 read -n 1 -s -r -p "........................................................"
-URL="https://bit.ly/2X3Nm6P"; xdg-open $URL || sensible-browser $URL || x-www-browser $URL || gnome-open $URL
+URL="https://github.com/XyroScope/MacOS_Theme_Ubuntu#usage"; xdg-open $URL || sensible-browser $URL || x-www-browser $URL || gnome-open $URL
 
 
 wget https://i.imgur.com/ZeDNy7c.jpg -O Light-MacOS.JPG
@@ -72,6 +72,9 @@ wget https://i.imgur.com/6xae3Pn.jpg -O Dark-MacOS.JPG
 sudo mv *MacOS.JPG /usr/share/backgrounds/
 gsettings set org.gnome.desktop.background picture-uri file:////usr/share/backgrounds/Dark-MacOS.JPG
 
+wget https://raw.githubusercontent.com/XyroScope/MacOS_Theme_Ubuntu/master/Apple-white.png -O Light-MacOS.png
+wget https://raw.githubusercontent.com/XyroScope/MacOS_Theme_Ubuntu/master/Apple-black.png -O Dark-MacOS.png
+sudo mv *MacOS.png /usr/share/plank/
 sudo apt update -y
 
 
